@@ -20,5 +20,4 @@ public class HelloRestController {
     public Person helloRegistration(@RequestBody Person person) {
         return person;
     }
-
 }
