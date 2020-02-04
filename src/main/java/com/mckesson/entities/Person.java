@@ -15,7 +15,6 @@ public class Person {
     private String email;
 
     public Person(){
-
     }
 
     public Person(String name, Date birthDate, String email) {
@@ -24,7 +23,6 @@ public class Person {
         this.email = email;
     }
 
-    @JsonIgnore
     public String getName() {
         return this.name;
     }

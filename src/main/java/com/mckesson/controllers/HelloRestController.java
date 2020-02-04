@@ -9,15 +9,16 @@ import java.util.Date;
 public class HelloRestController {
 
     @GetMapping("/hello")
-    public Person hello(
+    public Person helloRegistration(
             @RequestParam String name,
             @RequestParam Date birthDate,
-            @RequestParam String email){
+            @RequestParam String email) {
         return new Person(name, birthDate, email);
     }
 
-    @PostMapping("/hello-person")
-    public Person helloPerson(@RequestBody Person person){
+    @PostMapping("/hello")
+    public Person helloRegistration(@RequestBody Person person) {
         return person;
     }
+
 }
