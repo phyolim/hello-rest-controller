@@ -1,4 +1,4 @@
-package com.mckesson.entities;
+package com.galvanize.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;

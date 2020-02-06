@@ -1,6 +1,6 @@
-package com.mckesson.controllers;
+package com.galvanize.controllers;
 
-import com.mckesson.entities.Person;
+import com.galvanize.entities.Person;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
